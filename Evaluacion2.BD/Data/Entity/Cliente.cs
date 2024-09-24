@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Evaluacion2.BD.Data.Entity
 {
-    public class TDocumento : EntityBase
+    public class Cliente : EntityBase
     {
-        public string Codigo { get; set; }
 
-        public string Nombre { get; set; }
+        public int PersonaId { get; set; }
+
+        public Persona Persona { get; set;}
     }
 }

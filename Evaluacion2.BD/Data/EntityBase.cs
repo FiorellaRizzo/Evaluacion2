@@ -8,7 +8,6 @@ namespace Evaluacion2.BD.Data
 {
     public class EntityBase
     {
-
-        public int Id { get; set; }
+ public int Id { get; set; }
     }
 }
